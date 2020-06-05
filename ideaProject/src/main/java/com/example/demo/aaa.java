@@ -6,6 +6,16 @@ public class aaa {
     private String name;
     private String age;
 
+    private String sex;
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
     public String getId() {
         return id;
     }
